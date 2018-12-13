@@ -8,3 +8,5 @@
 >> - AJAX call
 >> - CSS grid/flex
 >> - Simple CSS Loading Spinner
+
+> [Watch in action](https://sandeep-menon.github.io/QuizApp/ "Generic Quiz App")
