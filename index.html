@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            meta declarations go here...
+        -->
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <!--
+            attach external files/scripts go here...
+        -->
+        <link rel="stylesheet" href="files/style.css">
+        <link rel="stylesheet" href="files/jquery-ui.css">
+        <link rel="icon" href="files/icons/iconfinder_13_330398.png">
+        <script src="files/script.js"></script>
+        <script src="files/jquery-1.12.4.js"></script>
+        <script src="files/jquery-ui.js"></script>
+    </head>
+    <body>
+        <title>Generic Quiz App</title>
+        <div id=main>
+            <h1>Generic Quiz App</h1>
+            <div id="loader"></div>
+            <div id="category"></div>
+            <div id="question"></div>
+            <div id="options" class="option-container">
+                <div class="options" id="opt_1"></div>
+                <div class="options" id="opt_2"></div>
+                <div class="options" id="opt_3"></div>
+                <div class="options" id="opt_4"></div>
+            </div>
+            <br><br><br>
+            <div id="dialog"></div>
+            <div id="button"><button class="button" onclick="start()">Click Me</button></div>
+        </div>
+    <script>Init()</script>
+    </body>
+</html>
